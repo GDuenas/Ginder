@@ -63,6 +63,8 @@ The radio inputs allow the user to select an option for gender.
 
 The dropdown inputs allows for users to select their skill level
 
+A navigation bar is used to go from website section to another efficiently.
+
 
 
 
