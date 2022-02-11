@@ -27,7 +27,7 @@ Icons-REPORT A PROBLEM.png was used for the report a problem icon
 
 th.png was used in the homepage.html page in the website details section
 
-##Buttons and Form Elements
+## Buttons and Form Elements
 
 submit buttons are used in the find_gamers.html, createprofile.html, report.html and
 
