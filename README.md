@@ -1,8 +1,73 @@
 # Ginder
+
 ## Names:
 Prashanth Sivoththaman (8693247)  
 Rafi Biouss (300018927)  
 Gabrelle Duenas (300081950)  
+
+
+
+# Deliverable 2
+
+## files for Mockups are as follows:
+
+homepage.html
+create_post.html
+createprofile.html
+find_gamers.html
+report.html
+
+## Colour Palette
+
+Background gradient goes from top to bottom from dark blue to light blue
+
+Letters are white with a dark grey background for easibility to read 
+
+Grey background boxes are bordered with black for organizing and easier to distinguish sections
+
+## Fonts and Type Scale
+
+Font is Calibri in order to make the words very easy to read
+
+Title of website is size h1 to draw your attention first
+
+Subsections is size h2 to draw attention second
+
+Paragraphs are wrriten with size 12 for easibility to read and not too big to take up too much space 
+
+## Icons/Images
+
+Icons-REPORT A PROBLEM.png was used for the report a problem icon
+
+th.png was used in the homepage.html page in the website details section
+
+## Buttons and Form Elements
+
+submit buttons are used in the find_gamers.html, createprofile.html, report.html and
+
+textfields and textares are used in the following files:
+
+- createprofile.html : so profile uses may add addiional descriptions about themselves
+
+- report.html :  so that users can properly describe they problems in the Report A Problem Section
+
+- create_post.html: so that users can create posts in the Create A Post Page
+
+create_post.html
+
+## UI Components
+
+radio inputs, and drop downs inputs were used in createprofile.html
+
+The radio inputs allow the user to select an option for gender.
+
+The dropdown inputs allows for users to select their skill level
+
+A navigation bar is used to go from website section to another efficiently.
+
+
+
+
 
 ## Application Name:
 G-Inder
