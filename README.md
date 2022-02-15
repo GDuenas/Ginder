@@ -7,7 +7,7 @@ Gabrelle Duenas (300081950)
 
 # Lab 05
 
-## Boostrap code screenshot
+## Boostrap code screenshot from /Ginder/create_post.html
 ![bootstrapCODE](https://user-images.githubusercontent.com/55245271/153959703-f700191f-5f73-48b6-afc8-888c4d93ebb3.JPG)
 
 
