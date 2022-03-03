@@ -6,65 +6,38 @@ Rafi Biouss (300018927)
 Gabrelle Duenas (300081950)  
 
 
+# Deliverable 3
 
-# Deliverable 2
+# Server Technology
 
-## files for Mockups are as follows:
+## PHP
 
-homepage.html
-create_post.html
-createprofile.html
-find_gamers.html
-report.html
+This project requires php 8.1.3 to be installed
+https://windows.php.net/download#php-8.1
 
-## Colour Palette
+The server technology we chose to integrate was php. 
 
-Background gradient goes from top to bottom from dark blue to light blue
+The php file name is called linking.php. This file was used to call to a query to the database and input into the database values that were retrieved from the html form in creatingprofile.html
 
-Letters are white with a dark grey background for easibility to read 
+(put in screenshot of php)
+(put in screenshot of html)
 
-Grey background boxes are bordered with black for organizing and easier to distinguish sections
 
-## Fonts and Type Scale
 
-Font is Calibri in order to make the words very easy to read
+# DataBase Technology
 
-Title of website is size h1 to draw your attention first
+The database technology we chose use was MySQL
 
-Subsections is size h2 to draw attention second
+MySQL was run using phpmyadmin
 
-Paragraphs are wrriten with size 12 for easibility to read and not too big to take up too much space 
+(instalation instructions for phpMyadmin)
+(XAMP instructions)
 
-## Icons/Images
 
-Icons-REPORT A PROBLEM.png was used for the report a problem icon
+# Demployment Instructions
 
-th.png was used in the homepage.html page in the website details section
 
-## Buttons and Form Elements
-
-submit buttons are used in the find_gamers.html, createprofile.html, report.html and
-
-textfields and textares are used in the following files:
-
-- createprofile.html : so profile uses may add addiional descriptions about themselves
-
-- report.html :  so that users can properly describe they problems in the Report A Problem Section
-
-- create_post.html: so that users can create posts in the Create A Post Page
-
-create_post.html
-
-## UI Components
-
-radio inputs, and drop downs inputs were used in createprofile.html
-
-The radio inputs allow the user to select an option for gender.
-
-The dropdown inputs allows for users to select their skill level
-
-A navigation bar is used to go from website section to another efficiently.
-
+# Screenshots for DataBase Demonstration...
 
 
 
