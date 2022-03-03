@@ -8,6 +8,8 @@
 
     <link type="text/css" rel="stylesheet" href="styles.css">
 
+    
+
 </head>
 <body>
 
@@ -24,6 +26,10 @@
     </div>
     
     
+    
+
+
+
    
     <h2 class="profile-title">Enter your Profile Information</h2>
     <div class="create-profile">
@@ -34,7 +40,7 @@
 
             <br>
 
-            <form id="form" class="profile-form" >
+            <form id="form" class="profile-form" action="linking.php" method="post" >
 
 
                 <div class="personalInfo">
@@ -45,7 +51,7 @@
 
                     <div class="pInfo">
                         <label class="info">First Name</label>
-                        <input id="firstname" type="text" placeholder="Your First name">
+                        <input id="firstname" name="firstname" type="text" placeholder="Your First name">
                         <br>
                     </div>
 
@@ -54,7 +60,7 @@
 
                     <div class="pInfo">
                         <label class="info">Last Name</label>
-                        <input id="lastname" type="text" placeholder="Your Last name">
+                        <input id="lastname" name="lastname" type="text" placeholder="Your Last name">
                         <br>
                     </div>
 
@@ -62,7 +68,7 @@
 
                     <div class="pInfo">
                         <label class="info">Email</label>
-                        <input id="email" type="text" placeholder="Enter Email">
+                        <input id="email" name="email" type="text" placeholder="Enter Email">
                         <br>
                     </div>
 
@@ -98,7 +104,7 @@
 
                     <div class="gInfo">
                         <label class="info">Gamer Tag</label>
-                        <input id="gamertag" type="text" placeholder="create your Gamer Tag">
+                        <input id="gamertag"  name="gamertag" type="text" placeholder="create your Gamer Tag">
                         <br>
                     </div>
 
@@ -106,7 +112,7 @@
                     <br>
                     <div class="gInfo">
                         <label class="info">Console</label>
-                        <input id="console" type="text" placeholder=" preffered console">
+                        <input id="console" name="console" type="text" placeholder=" preffered console">
                         <br>
                     </div>
                     
