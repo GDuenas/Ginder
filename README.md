@@ -76,6 +76,13 @@ Confirmation Message
 Newley added Vales in DataBase
 ![dbSUCCESS](https://user-images.githubusercontent.com/55245271/156673932-7f4d372b-2207-47ea-853e-5cf53ad76988.JPG)
 
+
+## Refined HTML/CSS + UI Design System
+..
+
+## Front-end (mock) interactivity using JavaScript
+..
+
 ## Application Name:
 G-Inder
 
