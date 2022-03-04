@@ -42,6 +42,11 @@ https://www.phpmyadmin.net/
 
 move GINDER project into XAMP\htdocs in your C directory
 
+open XAMP, and click start for both APACHE and MySQL
+
+![XAMPpicSTART](https://user-images.githubusercontent.com/55245271/156675587-f43486d0-b92c-4b69-b066-7b9d6b52fd10.JPG)
+
+
 # Screenshots for DataBase Demonstration
 
 Inputting data
