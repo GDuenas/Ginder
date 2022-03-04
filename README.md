@@ -47,6 +47,9 @@ open XAMP, and click start for both APACHE and MySQL
 ![XAMPpicSTART](https://user-images.githubusercontent.com/55245271/156675587-f43486d0-b92c-4b69-b066-7b9d6b52fd10.JPG)
 
 
+go to your web browser and enter http://localhost/mydb/createprofile.html
+
+
 # Screenshots for DataBase Demonstration
 
 Inputting data
