@@ -19,9 +19,21 @@ The server technology we chose to integrate was php.
 
 The php file name is called linking.php. This file was used to call to a query to the database and input into the database values that were retrieved from the html form in creatingprofile.html
 
-(put in screenshot of php)
-(put in screenshot of html)
+the page createprofile.html uses form which calls the php file linker.php
 
+![htmlphhp](https://user-images.githubusercontent.com/55245271/156678174-63f29b68-04c6-43eb-978a-7ce3b1649397.JPG)
+
+
+The php file used was linker.php
+
+This file made called a query to the database to insert select values into the database (firstname, last name, email, gamertag, console) 
+
+# from Ginder\linker.php
+
+![phpvar](https://user-images.githubusercontent.com/55245271/156678499-8b440e9b-89c8-4820-9864-50e5871571a1.JPG)
+
+
+![querysnip](https://user-images.githubusercontent.com/55245271/156678504-ff4cc643-2165-4d3a-a77f-919d14e20618.JPG)
 
 
 # DataBase Technology
@@ -47,7 +59,7 @@ open XAMP, and click start for both APACHE and MySQL
 ![XAMPpicSTART](https://user-images.githubusercontent.com/55245271/156675587-f43486d0-b92c-4b69-b066-7b9d6b52fd10.JPG)
 
 
-go to your web browser and enter http://localhost/mydb/createprofile.html
+go to your web browser and enter http://localhost/Ginder/createprofile.html
 
 
 # Screenshots for DataBase Demonstration
