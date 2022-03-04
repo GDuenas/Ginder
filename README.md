@@ -37,10 +37,20 @@ MySQL was run using phpmyadmin
 # Demployment Instructions
 
 
-# Screenshots for DataBase Demonstration...
+
+# Screenshots for DataBase Demonstration
+
+Inputting data
+
+![input](https://user-images.githubusercontent.com/55245271/156673605-a621f8c8-fac2-4210-a871-80ec1eced563.JPG)
+
+Confirmation Message
+
+![confirmationMessage](https://user-images.githubusercontent.com/55245271/156673726-4c361078-55e8-4a36-9d73-ad21f1ce3cd4.JPG)
 
 
-
+Newley added Vales in DataBase
+![dbSUCCESS](https://user-images.githubusercontent.com/55245271/156673932-7f4d372b-2207-47ea-853e-5cf53ad76988.JPG)
 
 ## Application Name:
 G-Inder
