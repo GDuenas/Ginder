@@ -31,12 +31,16 @@ The database technology we chose use was MySQL
 MySQL was run using phpmyadmin
 
 (instalation instructions for phpMyadmin)
-(XAMP instructions)
 
+Install XAMP so that website can be run from local host XAMP server
+https://www.apachefriends.org/index.html
+
+Install files for phpmyAdmin
+https://www.phpmyadmin.net/
 
 # Demployment Instructions
 
-
+move GINDER project into XAMP\htdocs in your C directory
 
 # Screenshots for DataBase Demonstration
 
