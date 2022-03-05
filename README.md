@@ -81,15 +81,19 @@ Newley added Vales in DataBase
 Modified titles on all pages to a cleaner bordered look to make the visuals of the website sleeker
 
 Old Titles
+
 ![image](https://user-images.githubusercontent.com/55254984/156866152-5ccffc84-c84b-4fa0-92c4-156293f9cf03.png)
 
 Modified Titles for Delivarable 3
+
 ![image](https://user-images.githubusercontent.com/55254984/156866159-3bd3ce85-335b-4555-99e8-7f0a104bdc28.png)
 
 Changed Nav Bar to Black While Hovering Over Page Titles
+
 ![image](https://user-images.githubusercontent.com/55254984/156866163-bb7d2050-d58d-4339-9b5c-e8566f861e7e.png)
 
 Code Accomplishsing the Above Image
+
 ![image](https://user-images.githubusercontent.com/55254984/156866169-0637c6be-be4d-473d-9976-b48e7148e710.png)
 
 ## Front-end (mock) interactivity using JavaScript
