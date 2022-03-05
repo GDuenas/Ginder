@@ -87,6 +87,19 @@ We created a file Ginder\simulation.js to simulate the mock entry of files with 
 ![CaptureJS](https://user-images.githubusercontent.com/55245271/156862848-9cfb2b22-c863-447c-a4eb-9fe7ebb3c29c.JPG)
 
 
+## Testing
+
+From the mock function, we ran test using predefined values
+
+(screenshot taken after clicking the submit button and clicking the back button from the success message page)
+![t1](https://user-images.githubusercontent.com/55245271/156863202-1152291e-275f-4a78-b672-d01e0995292e.JPG)
+
+As seen in the below 2 diagrams the mock js test was able to succesfully add values to the database
+
+![t2](https://user-images.githubusercontent.com/55245271/156863233-6dc5fa1d-7d4c-4894-8fa2-905876eca958.JPG)
+
+![t3](https://user-images.githubusercontent.com/55245271/156863238-e57fdb40-5033-49aa-bd2b-61bd8ab70f80.JPG)
+
 
 ## Application Name:
 G-Inder
