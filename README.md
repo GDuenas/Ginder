@@ -81,7 +81,12 @@ Newley added Vales in DataBase
 ..
 
 ## Front-end (mock) interactivity using JavaScript
-..
+
+We created a file Ginder\simulation.js to simulate the mock entry of files with predefined values
+
+![CaptureJS](https://user-images.githubusercontent.com/55245271/156862848-9cfb2b22-c863-447c-a4eb-9fe7ebb3c29c.JPG)
+
+
 
 ## Application Name:
 G-Inder
