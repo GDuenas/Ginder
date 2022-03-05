@@ -1,25 +1,9 @@
-var Simlulator = (function() {
+function Simulator(){
+	document.getElementById("firstname").value="Joe";
+	document.getElementById("lastname").value="Mama";
+	document.getElementById("email").value="joe@mama.ca";
+	document.getElementById("gamertag").value="mamaphone";
+	document.getElementById("console").value="pc";
 
-	entity.simulate = function() {
-		var firstname = document.getElementById("firstname");
-		var lastname = document.getElementById("lastname");
-		var email = document.getElementById("email");
-		var gamertag = document.getElementById("gamertag");
-		var gameconsole = document.getElementById("console");
-
-		var submitbutton = document.getElementById("submit-info");
-
-
-		firstname.value = "Joe";
-		lastname.value = "Mama";
-		email.value = "joe@mama.ca";
-		gamertag.value = "mamaphone";
-		gameconsole.value = "pc";
-
-		submitbutton.click();
-
-	}
-
-
-
-}());
+	document.forms[0].submit()
+}
