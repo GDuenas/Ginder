@@ -38,7 +38,7 @@
 
             <br>
 
-            <form id="form" class="profile-form" >
+            <form id="form" class="profile-form"  action="linking.php" method="post" >
 
 
                 <div class="personalInfo">
@@ -118,24 +118,25 @@
                     <br>
 
                     <div class="gInfo">
-                        <label class="info" for="skillLevel">Choose skill Level</label>
-                        <select name="skillLevels" id="skillLevels">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                        <br>
+
+                    <label class="info" for="skillLevel">Choose skill Level</label>
+                    <select name="skillLevels" id="skillLevels">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+
                     </div>
+
+
+
                     <br>
-
-
-                    
 
                     <div class="gInfo">
                     <label class="info">Desciption </label><br>
-                    <textarea name="" id="" cols="30" rows="5">Additional Information</textarea>
+                    <textarea name="description" id="" cols="30" rows="5">Additional Information</textarea>
                     <br> 
                     </div>
                 
@@ -143,10 +144,9 @@
                 
                 <br>
 
-                <div class="submit-button">
-                    <button onclick="Simulator()">Submit</button>
-                </div>
+                <input type="submit" value="Submit">
 
+                
 
             </form>
 
