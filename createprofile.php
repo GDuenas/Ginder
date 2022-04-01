@@ -1,3 +1,62 @@
+<?php
+class Profile {
+
+    public $firstname;
+    public $lastname;
+    public $email;
+    public $gender;
+    public $gamertag;
+    public $console;
+    public $skill;
+
+    public function __construct($firstname, $lastname, $email, $gender, $gamertag, $console, $skill) {
+        $this->firstname = $firstname;
+        $this->lastname = $lastname;
+        $this->email = $email;
+        $this->gender = $gender;
+        $this->gamertag = $gamertag;
+        $this->console = $console;
+        $this->skill = $skill;
+    }
+
+    public static function processData($data) {
+        $newUser = new Profile(
+        isset($data["firstname"]) ? $data["firstname"] : null,
+        isset($data["lastname"]) ? $data["lastname"] : null,
+        isset($data["email"]) ? $data["email"] : null,
+        isset($data["gender"]) ? $data["gender"] : null,
+        isset($data["gamertag"]) ? $data["gamertag"] : null,
+        isset($data["console"]) ? $data["console"] : null,
+        isset($data["skill"]) ? $data["skill"] : null
+      );
+
+        return $newUser;
+    }
+
+    public function save($db) {
+        $query = "INSERT INTO profile (fname, lname, email, gender, gtag, console, skill) VALUES ('$this->firstname', '$this->lastname', '$this->email', '$this->gender', '$this->gamertag', '$this->console', '$this->skill')";
+        if ($db->query($query)) {
+            return true;
+        } 
+        return false;
+    }
+
+}
+
+
+$profile = Profile::processData($_POST);
+
+if (!empty($_POST)) {
+    $db = new mysqli("localhost", "root", "", "Ginder");
+    $ok = $profile->save($db);
+    $db->close();
+    if ($ok) {
+        header("Location: homepage.html");
+        exit();
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -32,7 +91,7 @@
 
                 <br>
 
-                <form id="form" class="profile-form"  action="linking.php" method="post" >
+                <form id="form" class="profile-form" method="POST" >
 
 
                     <div class="personalInfo">
