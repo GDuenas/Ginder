@@ -26,7 +26,20 @@ Gabrelle Duenas (300081950)
 
 ## Create Post
 
+![post1](https://user-images.githubusercontent.com/55245271/161453505-8b664688-9f4a-475f-9d53-41dce6c3ac8c.JPG)
+
+![post2](https://user-images.githubusercontent.com/55245271/161453510-b0b2345e-4a4a-4573-ba2c-7b5cce6993f1.JPG)
+
+
 ## Find gamer
+
+![Search1](https://user-images.githubusercontent.com/55245271/161453517-d0851716-c656-4f1a-a2ff-8b1fc427e77a.JPG)
+
+![Search2](https://user-images.githubusercontent.com/55245271/161453521-705b91db-3efb-406c-acf9-220ef0596fda.JPG)
+
+
+![Search3](https://user-images.githubusercontent.com/55245271/161453529-f1e95f85-4569-45a9-867b-0e52b449a234.JPG)
+
 
 # Application v1.0 (quality versus quantity)
 
