@@ -6,6 +6,46 @@ Rafi Biouss (300018927)
 Gabrelle Duenas (300081950)  
 
 
+
+# Deliverable 4
+
+# Implementation Feature
+
+# Software Documentation
+
+## Installation
+
+# Adherance to UI Design System
+
+# Seeding application with sample data
+
+# Screenshots of available features
+## creating profile
+
+## Report Problem
+
+## Create Post
+
+## Find gamer
+
+# Application v1.0 (quality versus quantity)
+
+# Git usage (commit messages, all students involved)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Deliverable 3
 
 # Server Technology
