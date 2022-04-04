@@ -50,7 +50,11 @@ https://www.phpmyadmin.net/
 
 ## Create Post
 
+first user inputs the required fields in the create post form and clicks submit
+
 ![post1](https://user-images.githubusercontent.com/55245271/161453505-8b664688-9f4a-475f-9d53-41dce6c3ac8c.JPG)
+
+The form then posts to the database
 
 ![post2](https://user-images.githubusercontent.com/55245271/161453510-b0b2345e-4a4a-4573-ba2c-7b5cce6993f1.JPG)
 
