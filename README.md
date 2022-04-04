@@ -77,6 +77,16 @@ Setup postgres database
 
 # Seeding application with sample data
 
+## screenshot from phpmyadmin
+
+## screenshot from pgadmin
+
+The table entitygamerposts contains the attributes gamertag, console, rank, skill, and descriptipn,  
+the values are inputted by the create_post.php
+![dbseed](https://user-images.githubusercontent.com/55245271/161630746-5fa01eba-2e4c-4c17-8b83-490082456c97.JPG)
+
+
+
 # Screenshots of available features
 ## Feature 1: creating profile
 
@@ -84,7 +94,11 @@ Setup postgres database
 
 ##  Feature 3: Create Post
 
-first user inputs the required fields in the create post form and clicks submit
+This feature allows a user to create posts under their gamertag
+
+first user navigates to create_post.php
+
+next user inputs the required fields in the create post form and clicks submit
 
 ![post1](https://user-images.githubusercontent.com/55245271/161453505-8b664688-9f4a-475f-9d53-41dce6c3ac8c.JPG)
 
@@ -98,7 +112,7 @@ The form then posts to the database
 This feature allows the user to find the information and post of a desired game
 once the user types in the gamertag ame, the webpage displays the information of the gamertag
 
-user navigates to find gamer page
+user navigates to find gamer page (find_gamers.php)
 ![Search1](https://user-images.githubusercontent.com/55245271/161453517-d0851716-c656-4f1a-a2ff-8b1fc427e77a.JPG)
 
 
@@ -110,7 +124,6 @@ the webpage then displays the info of that specifc gamer  (fetching values from 
 ![Search3](https://user-images.githubusercontent.com/55245271/161453529-f1e95f85-4569-45a9-867b-0e52b449a234.JPG)
 
 
-# Application v1.0 (quality versus quantity)
 
 # Git usage (commit messages, all students involved)
 
