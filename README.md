@@ -9,7 +9,9 @@ Gabrelle Duenas (300081950)
 
 # Deliverable 4
 
-# Implementation Feature
+# Implementation Features Server / Client / HTML / CSS
+
+
 
 # Software Documentation
 
@@ -39,17 +41,34 @@ MySQL was run using phpmyadmin
 Install files for phpmyAdmin
 https://www.phpmyadmin.net/
 
+the other databse  we used was pgAdmin
+
+link to install
+
+https://www.pgadmin.org/download/pgadmin-4-windows/
+
+
+# Demployment Instructions
+
+move GINDER project into XAMP\htdocs in your C directory
+
+open XAMP, and click start for both APACHE and MySQL
+
+![XAMPpicSTART](https://user-images.githubusercontent.com/55245271/156675587-f43486d0-b92c-4b69-b066-7b9d6b52fd10.JPG)
+
+
 # Adherance to UI Design System
+
 
 
 # Seeding application with sample data
 
 # Screenshots of available features
-## creating profile
+## Feature 1: creating profile
 
-## Report Problem
+## Feature 2: Report Problem
 
-## Create Post
+##  Feature 3: Create Post
 
 first user inputs the required fields in the create post form and clicks submit
 
@@ -60,9 +79,10 @@ The form then posts to the database
 ![post2](https://user-images.githubusercontent.com/55245271/161453510-b0b2345e-4a4a-4573-ba2c-7b5cce6993f1.JPG)
 
 
-## Find gamer
+## Feature 4: Find gamer
 
 This feature allows the user to find the information and post of a desired game
+once the user types in the gamertag ame, the webpage displays the information of the gamertag
 
 user navigates to find gamer page
 ![Search1](https://user-images.githubusercontent.com/55245271/161453517-d0851716-c656-4f1a-a2ff-8b1fc427e77a.JPG)
