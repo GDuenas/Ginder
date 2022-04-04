@@ -73,6 +73,40 @@ Setup postgres database
 
 # Adherance to UI Design System
 
+## Colour Palette
+
+Background gradient goes from top to bottom from dark blue to light blue
+
+Letters are white with a dark grey background for easibility to read 
+
+Grey background boxes are bordered with black for organizing and easier to distinguish sections
+
+## Fonts and Type Scale
+
+Font is Calibri in order to make the words very easy to read
+
+Title of website is size h1 to draw your attention first
+
+Subsections is size h2 to draw attention second
+
+Paragraphs are wrriten with size 12 for easibility to read and not too big to take up too much space 
+
+## Icons/Images
+
+Icons-REPORT A PROBLEM.png was used for the report a problem icon
+
+th.png was used in the homepage.html page in the website details section
+
+## UI Components
+
+radio inputs, and drop downs inputs were used in createprofile.html
+
+The radio inputs allow the user to select an option for gender.
+
+The dropdown inputs allows for users to select their skill level
+
+A navigation bar is used to go from website section to another efficiently.
+
 
 
 # Seeding application with sample data
