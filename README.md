@@ -48,6 +48,8 @@ link to install
 https://www.pgadmin.org/download/pgadmin-4-windows/
 
 
+
+
 # Demployment Instructions
 
 move GINDER project into XAMP\htdocs in your C directory
@@ -58,6 +60,16 @@ open XAMP, and click start for both APACHE and MySQL
 
 on your webbrowser type this link:  http://localhost/Ginder/homepage.html
 
+Setup postgres database
+
+1.open Pgadmin
+2. Right click "Database"
+3. Click Create..
+4. Click Databse
+5. Name the database GinderDB
+6. right click on GinderDB
+7. click restore
+8. select "GinderDatabase"
 
 # Adherance to UI Design System
 
