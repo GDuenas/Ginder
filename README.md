@@ -11,6 +11,19 @@ Gabrelle Duenas (300081950)
 
 # Implementation Features Server / Client / HTML / CSS
 
+This project utilizes html and css to create the front end of this website.
+
+Php is the server language used to communicate, write data, and fetch data from the databases on the backend
+
+html is used in create_post.php, createprofile.php, find_gamers.php, homepage.html, report.php
+
+css is used in: styles.css
+
+php is used in : create_post.php, createprofile.php, find_gamers.php, report.php and post.php
+
+The database langauages used are mysql and sql
+
+
 
 
 # Software Documentation
