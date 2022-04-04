@@ -41,6 +41,7 @@ https://www.phpmyadmin.net/
 
 # Adherance to UI Design System
 
+
 # Seeding application with sample data
 
 # Screenshots of available features
@@ -61,10 +62,16 @@ The form then posts to the database
 
 ## Find gamer
 
+This feature allows the user to find the information and post of a desired game
+
+user navigates to find gamer page
 ![Search1](https://user-images.githubusercontent.com/55245271/161453517-d0851716-c656-4f1a-a2ff-8b1fc427e77a.JPG)
 
+
+user inputs gamertag of desired gamer that the user wants infomation for and hits submit
 ![Search2](https://user-images.githubusercontent.com/55245271/161453521-705b91db-3efb-406c-acf9-220ef0596fda.JPG)
 
+the webpage then displays the info of that specifc gamer  (fetching values from the database)
 
 ![Search3](https://user-images.githubusercontent.com/55245271/161453529-f1e95f85-4569-45a9-867b-0e52b449a234.JPG)
 
