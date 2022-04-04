@@ -187,6 +187,13 @@ the webpage then displays the info of that specifc gamer  (fetching values from 
 
 # Git usage (commit messages, all students involved)
 
+link to commit history
+
+https://github.com/GDuenas/Ginder/commits/deliverable04
+
+Prashanth Sivoththaman (8693247)  
+Rafi Biouss (300018927)  
+Gabrelle Duenas (300081950)  
 
 
 
