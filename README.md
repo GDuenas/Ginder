@@ -56,6 +56,8 @@ open XAMP, and click start for both APACHE and MySQL
 
 ![XAMPpicSTART](https://user-images.githubusercontent.com/55245271/156675587-f43486d0-b92c-4b69-b066-7b9d6b52fd10.JPG)
 
+on your webbrowser type this link:  http://localhost/Ginder/homepage.html
+
 
 # Adherance to UI Design System
 
