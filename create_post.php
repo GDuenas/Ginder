@@ -1,62 +1,9 @@
-<?php
-class Post {
-
-    public $gamertag;
-    public $gameName;
-    public $console;
-    public $rank;
-    public $description;
-
-    public function __construct($gamertag, $gameName, $console, $rank, $description) {
-        $this->gamertag = $gamertag;
-        $this->gameName = $gameName;
-        $this->console = $console;
-        $this->rank = $rank;
-        $this->description = $description;
-    }
-
-    public static function processData($data) {
-        $newUser = new Post(
-            isset($data["gamertag"]) ? $data["gamertag"] : null,
-            isset($data["gameName"]) ? $data["gameName"] : null,
-            isset($data["console"]) ? $data["console"] : null,
-            isset($data["rank"]) ? $data["rank"] : null,
-            isset($data["description"]) ? $data["description"] : null,
-        );
-
-        return $newUser;
-    }
-
-    public function save($db) {
-        $query = "INSERT INTO post (gamertag, gameName, console, rank, description) VALUES ('$this->gamertag', '$this->gameName', '$this->console', '$this->rank', '$this->description')";
-        if ($db->query($query)) {
-            return true;
-        } 
-        return false;
-    }
-}
-
-
-$post = Post::processData($_POST);
-
-if (!empty($_POST)) {
-    $db = new mysqli("localhost", "root", "", "Ginder");
-    $ok = $post->save($db);
-    $db->close();
-    if ($ok) {
-        header("Location: homepage.html");
-        exit();
-    } else {
-        header("Location: createprofile.html");
-    }
-}
-?>
-
 <html>
 <head>
     <link rel="stylesheet" href="styles.css">
     <meta charset = "utf-8">
     <title>Create a post</title>
+    
 </head>
 <body>
 
@@ -77,19 +24,56 @@ if (!empty($_POST)) {
         <p>
             Please fill out the following fields to allow the website to show your post to interested users!
         </p>
-            <form id="form" class="post-form" method="POST">
-              <label for="gamertag">Username:</label>
-              <input type="text" id="gamertag" name="gamertag"><br><br>
-              <label for="gameName">Game:</label>
-              <input type="text" id="gameName" name="gameName"><br><br>
-              <label for="console">Console:</label>
-              <input type="console" id="console" name="console"><br><br>
-              <label for="rank">Rank:</label>
-              <input type="rank" id="rank" name="rank"><br><br>
-              <label for="description"></label>
-              <textarea name="description" id="description" rows="10" cols="50"></textarea>
-              <input type="submit" value="Submit">
+
+        
+            <form action="post.php"  method="post">
+
+                
+                
+                    <label >Gamer Tag</label>
+                    <input id="gamertag"  name="gamertag" type="text"  placeholder="enter gamertag" style="color:black;">
+                    <br>
+                    <br>
+                
+                
+                    <label >Game </label>
+                    <input type="text" id="game" name="game" style="color:black;"><br><br>
+
+                    <label>Console</label>
+                    <input id="console" name="console" type="text" placeholder=" preffered console" style="color:black;">
+                    <br>
+
+                    <label for="skillLevel">Choose skill Level</label>
+                    <select name="skillLevels" id="skillLevels">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                    </select>
+
+                    <br>
+                    <br>
+
+                    <label>Description</label>
+                    <textarea id="description" name="description" rows="10" cols="50">
+                        What is your post?
+                    </textarea>
+
+                    <br>
+                    <br>
+
+                    <input type="submit" value="Submit" style="color:black;">
+
+                
+                
+              
+              
             </form>
+
+            
+
+
       </div>
 
   </body>
