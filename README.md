@@ -91,21 +91,29 @@ Subsections is size h2 to draw attention second
 
 Paragraphs are wrriten with size 12 for easibility to read and not too big to take up too much space 
 
+![ad1](https://user-images.githubusercontent.com/55245271/161641623-d34cc250-4e61-43f6-a82b-7a9b93c86d12.JPG)
+
+
 ## Icons/Images
 
-Icons-REPORT A PROBLEM.png was used for the report a problem icon
+Icons-REPORT A PROBLEM.png was used for the report a problem icon![ad2](https://user-images.githubusercontent.com/55245271/161641656-baa62dae-b574-4f52-a9f2-561cdf0dc7ef.JPG)
+
+
+
 
 th.png was used in the homepage.html page in the website details section
+![ad3](https://user-images.githubusercontent.com/55245271/161641675-408b9b82-3f16-4c9a-b9e5-2ca731d715db.JPG)
 
 ## UI Components
 
-radio inputs, and drop downs inputs were used in createprofile.html
+radio inputs, and drop downs inputs were used in createprofile.php and  create_post.php
 
-The radio inputs allow the user to select an option for gender.
 
 The dropdown inputs allows for users to select their skill level
+![ad4](https://user-images.githubusercontent.com/55245271/161641759-226f2de8-8318-43a4-b55d-90ebabb3d195.JPG)
 
-A navigation bar is used to go from website section to another efficiently.
+A navigation bar is used to go from website section to another efficiently.![ad5](https://user-images.githubusercontent.com/55245271/161641772-f65a8772-8cf8-49e2-96c7-9c35133789b3.JPG)
+
 
 
 
