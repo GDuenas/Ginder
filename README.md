@@ -13,7 +13,31 @@ Gabrelle Duenas (300081950)
 
 # Software Documentation
 
-## Installation
+## Server Installation
+
+## PHP
+
+This project requires php 8.1.3 to be installed
+https://windows.php.net/download#php-8.1
+
+The server technology we chose to integrate was php. 
+
+Install XAMP so that website can be run from local host XAMP server
+https://www.apachefriends.org/index.html
+
+Install files for phpmyAdmin
+https://www.phpmyadmin.net/
+
+## Database Technology
+
+The database technology we chose use was MySQL
+
+MySQL was run using phpmyadmin
+
+(instalation instructions for phpMyadmin)
+
+Install files for phpmyAdmin
+https://www.phpmyadmin.net/
 
 # Adherance to UI Design System
 
