@@ -9,6 +9,7 @@ Gabrelle Duenas (300081950)
 
 # Deliverable 4
 
+
 G-inder is an online gamer database where different players from different games can put up posts looking for other people to play with. In each of these posts players will discuss what kind of players they’re looking for whether it be purely to have fun with others, or it be skilled based if someone is looking for a person of similar ranks in their game.
 
 
@@ -171,6 +172,7 @@ the values are inputted by the create_post.php
 
 
 # Screenshots of available features
+
 ## Feature 1: creating profile
 
 This feature allows a user to register their profile to the website.
