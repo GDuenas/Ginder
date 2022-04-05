@@ -1,3 +1,64 @@
+<?php
+class Profile {
+
+    public $firstname;
+    public $lastname;
+    public $email;
+    public $gender;
+    public $gamertag;
+    public $console;
+    public $skill;
+
+    public function __construct($firstname, $lastname, $email, $gender, $gamertag, $console, $skill, $description) {
+        $this->firstname = $firstname;
+        $this->lastname = $lastname;
+        $this->email = $email;
+        $this->gender = $gender;
+        $this->gamertag = $gamertag;
+        $this->console = $console;
+        $this->skill = $skill;
+        $this->description = $description;
+    }
+
+    public static function processData($data) {
+        $newUser = new Profile(
+        isset($data["firstname"]) ? $data["firstname"] : null,
+        isset($data["lastname"]) ? $data["lastname"] : null,
+        isset($data["email"]) ? $data["email"] : null,
+        isset($data["gender"]) ? $data["gender"] : null,
+        isset($data["gamertag"]) ? $data["gamertag"] : null,
+        isset($data["console"]) ? $data["console"] : null,
+        isset($data["skill"]) ? $data["skill"] : null,
+        isset($data["description"]) ? $data["description"] : null
+      );
+
+        return $newUser;
+    }
+
+    public function save($db) {
+        $query = "INSERT INTO profile (fname, lname, email, gender, gtag, console, skill, description) VALUES ('$this->firstname', '$this->lastname', '$this->email', '$this->gender', '$this->gamertag', '$this->console','$this->skill', '$this->description')";
+        if ($db->query($query)) {
+            return true;
+        } 
+        return false;
+    }
+
+}
+
+
+$profile = Profile::processData($_POST);
+
+if (!empty($_POST)) {
+    $db = new mysqli("localhost", "root", "", "Ginder");
+    $ok = $profile->save($db);
+    $db->close();
+    if ($ok) {
+        header("Location: homepage.html");
+        exit();
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -32,7 +93,7 @@
 
                 <br>
 
-                <form id="form" class="profile-form"  action="linking.php" method="post" >
+                <form id="form" class="profile-form" method="POST" >
 
 
                     <div class="personalInfo">
@@ -113,13 +174,13 @@
 
                         <div class="gInfo">
 
-                        <label class="info" for="skillLevel">Choose skill Level</label>
-                        <select name="skillLevels" id="skillLevels">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
+                        <label class="info">Choose skill Level</label>
+                        <select name="skill" id="skill">
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
                         </select>
 
                         </div>
@@ -130,7 +191,7 @@
 
                         <div class="gInfo">
                         <label class="info">Desciption </label><br>
-                        <textarea name="description" id="" cols="30" rows="5">Additional Information</textarea>
+                        <textarea name="description" id="description" cols="30" rows="5">Additional Information</textarea>
                         <br> 
                         </div>
                     
