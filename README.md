@@ -137,6 +137,24 @@ A navigation bar is used to go from website section to another efficiently.![ad5
 
 # Seeding application with sample data
 
+
+Setup phpmyadminDB
+
+open XAMP, and click start for both APACHE and MySQL
+Click the "Admin" button for the mySQL row
+
+
+Setup postgres database
+
+1.open Pgadmin
+2. Right click "Database"
+3. Click Create..
+4. Click Databse
+5. Name the database GinderDB
+6. right click on GinderDB
+7. click restore
+8. select "GinderDatabase"
+
 ## screenshot from phpmyadmin
 
 The table profile contains the attributes fname (first name), lname (last name), email, gender, gtag (gamertag), console, skill, and description
