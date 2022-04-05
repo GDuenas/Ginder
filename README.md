@@ -141,6 +141,7 @@ A navigation bar is used to go from website section to another efficiently.![ad5
 
 The table profile contains the attributes fname (first name), lname (last name), email, gender, gtag (gamertag), console, skill, and description
 the values are inputted and processed by createprofile.php
+![phpmyadminseed](https://user-images.githubusercontent.com/44557578/161653494-1ec60a5c-1dbe-4077-95c5-7f27d8b02def.png)
 
 
 ## screenshot from pgadmin
@@ -153,6 +154,17 @@ the values are inputted by the create_post.php
 
 # Screenshots of available features
 ## Feature 1: creating profile
+
+This feature allows a user to register their profile to the website.
+
+On page createprofile.php, user inputs their information, then clicks submit.
+
+![inputprofiledata](https://user-images.githubusercontent.com/44557578/161653663-3091bf91-2b4c-4f56-b2f8-67961381832f.png)
+
+The data is processed by the php page and posted to the database
+
+![uploadedprofiledata](https://user-images.githubusercontent.com/44557578/161653747-95979737-93e5-4d38-b2e8-c7114b0d42a6.png)
+
 
 ## Feature 2: Report Problem
 
