@@ -168,6 +168,17 @@ The data is processed by the php page and posted to the database
 
 ## Feature 2: Report Problem
 
+This feature allows a user to report a problem they may have with either the site, or the users on it.
+
+On page report.php, user inputs the problem they have, then clicks submit.
+
+![inputreportdata](https://user-images.githubusercontent.com/44557578/161658189-d25cd4d7-02f0-4c29-a1f3-f90d1c866069.png)
+
+The data is then processed by the php page and posted to the database
+
+![uploadreportdata](https://user-images.githubusercontent.com/44557578/161658220-8de08375-82be-4786-b0d0-7d36ad3b3c25.png)
+
+
 ##  Feature 3: Create Post
 
 This feature allows a user to create posts under their gamertag
