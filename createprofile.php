@@ -9,7 +9,7 @@ class Profile {
     public $console;
     public $skill;
 
-    public function __construct($firstname, $lastname, $email, $gender, $gamertag, $console, $skill) {
+    public function __construct($firstname, $lastname, $email, $gender, $gamertag, $console, $skill, $description) {
         $this->firstname = $firstname;
         $this->lastname = $lastname;
         $this->email = $email;
@@ -17,6 +17,7 @@ class Profile {
         $this->gamertag = $gamertag;
         $this->console = $console;
         $this->skill = $skill;
+        $this->description = $description;
     }
 
     public static function processData($data) {
@@ -27,14 +28,15 @@ class Profile {
         isset($data["gender"]) ? $data["gender"] : null,
         isset($data["gamertag"]) ? $data["gamertag"] : null,
         isset($data["console"]) ? $data["console"] : null,
-        isset($data["skill"]) ? $data["skill"] : null
+        isset($data["skill"]) ? $data["skill"] : null,
+        isset($data["description"]) ? $data["description"] : null
       );
 
         return $newUser;
     }
 
     public function save($db) {
-        $query = "INSERT INTO profile (fname, lname, email, gender, gtag, console, skill) VALUES ('$this->firstname', '$this->lastname', '$this->email', '$this->gender', '$this->gamertag', '$this->console', '$this->skill')";
+        $query = "INSERT INTO profile (fname, lname, email, gender, gtag, console, skill, description) VALUES ('$this->firstname', '$this->lastname', '$this->email', '$this->gender', '$this->gamertag', '$this->console','$this->skill', '$this->description')";
         if ($db->query($query)) {
             return true;
         } 
@@ -172,13 +174,13 @@ if (!empty($_POST)) {
 
                         <div class="gInfo">
 
-                        <label class="info" for="skillLevel">Choose skill Level</label>
-                        <select name="skillLevels" id="skillLevels">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
+                        <label class="info">Choose skill Level</label>
+                        <select name="skill" id="skill">
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
                         </select>
 
                         </div>
@@ -189,7 +191,7 @@ if (!empty($_POST)) {
 
                         <div class="gInfo">
                         <label class="info">Desciption </label><br>
-                        <textarea name="description" id="" cols="30" rows="5">Additional Information</textarea>
+                        <textarea name="description" id="description" cols="30" rows="5">Additional Information</textarea>
                         <br> 
                         </div>
                     

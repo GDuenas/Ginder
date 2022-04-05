@@ -139,6 +139,10 @@ A navigation bar is used to go from website section to another efficiently.![ad5
 
 ## screenshot from phpmyadmin
 
+The table profile contains the attributes fname (first name), lname (last name), email, gender, gtag (gamertag), console, skill, and description
+the values are inputted and processed by createprofile.php
+
+
 ## screenshot from pgadmin
 
 The table entitygamerposts contains the attributes gamertag, console, rank, skill, and descriptipn,  
